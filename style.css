@@ -1,0 +1,74 @@
+body {
+  background: #222222;
+  color: #f2f2f2;
+  font-family: 'Futura Book';
+  font-size: 0.96em;
+  padding: 2.22rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  display: inline-block;
+  margin: 0.33rem 0.66rem 0.33rem 0;
+  padding: 0;
+}
+
+figcaption {
+  display: block;
+  margin: 0.66rem 0;
+}
+
+.copyright {
+  padding-top: 3.3rem;
+}
+
+.title {
+  color: #f3f3f3;
+}
+
+.row {
+  border-bottom: 1px solid #434342;
+  margin: 2.51rem 0;
+  padding-bottom: 2.289rem;
+}
+
+.row:ntp-child(0) {
+  border: none;
+}
+
+.container {
+  margin: 0.33rem 0;
+}
+
+.label {
+  border-radius: 0.44em;
+  display: inline-block;
+  font-size: 0.88em;
+  padding: 0.22rem 0.66rem;
+  margin: 0 0 0.44rem 0;
+  vertical-align: bottom;
+}
+
+.label.photo {
+  background: #666666;
+  color: #f3f3f3;
+}
+
+.label.drawing {
+  background: #9f8170;
+  color: #f3f3f3;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: underline;
+}
